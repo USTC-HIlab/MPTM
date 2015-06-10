@@ -1,0 +1,566 @@
+/* table */
+/*.marg1{margin-left:-20px;}*/
+#summary{
+	padding:10px 0px 10px 20px;
+	font:verdana,arial,sans-serif;
+	font-size:16px;
+	color:#00F;
+	font-weight:bold;
+	border:1px solid #e0ffff;
+	border-radius:8px;
+	width:980px;
+	margin:0 auto;
+    text-align: center;
+}
+.pic{
+	display: inline-block;
+	}
+#tabs{
+	width:980px;
+	margin:0 auto;
+	}
+	
+#summary p{
+	display:inline;
+}
+.tabs{
+	width:980px;
+	margin:0 auto;	
+	}
+.pmid{
+	padding:10px;
+	text-align:center;
+	font:verdana,arial,sans-serif;
+	font-size:16px;
+	}
+
+.pmid a{
+	text-decoration:none;
+	font-weight:bold;
+	}
+
+/*------------表格属性----------*/
+.marg1 table {
+	font-family: verdana,arial,sans-serif;
+	font-size:12px;
+	border-collapse:collapse;
+	}
+
+.marg1 table tr{
+	width:980px;
+	border:1px solid #e78f08;
+	}
+	
+.marg1 table tr td{
+	text-align:left;
+	padding: 8px;
+}
+
+.marg1 table tr td a{
+	text-decoration:none;
+	}
+
+.marg1 table tr th{
+	background-color:#fba838;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #999999;
+	font-weight:200;
+	text-align: center;
+}
+
+.css1{
+background:#FFF;
+}
+.css2{
+background:#CCC;
+}
+	
+
+/*.hide table{
+	margin-left:100px;
+	
+	}
+.hide table tr td{
+	border-style:hidden;
+	
+	}*/
+
+/*.marg1 table
+        {
+            border-collapse: collapse;
+			/*width:980px;*/
+/*			text-align:left;
+        }
+/*.marg1 td
+        {
+            border: solid #000 1px;
+			text-align:left;
+        }
+		
+/*.marg1 table
+        {
+            border-collapse: collapse;
+            border: none;
+		width:970px;
+		text-align:left;
+        }
+.marg1 td
+        {
+            border: solid #000 1px;
+			text-align:left;
+        }*/
+/*.container a
+        {
+			color:#F9F10A;
+		}*/
+.substrate
+		{
+			color:#F00;
+		}
+.kinase
+		{
+			color:#00F;
+		}
+.site
+		{
+			color:#0F0;
+		}
+.species
+		{
+			color:#339999;
+		}
+.crosstalk
+		{
+			color:#ff3399;
+		}
+.disevidence	{
+			color:#ff00ff;
+		}
+.goterms	{
+			color:#99cc33;
+		}
+		
+/**/
+.mark-kinase {
+  display: inline;
+  color: #00F;
+  font-weight: bold;
+}
+.mark-sub {
+  display: inline;
+  color: #F00;
+  font-weight: bold;
+}
+.mark-site {
+  display: inline;
+  color: #0F0;
+  font-weight: bold;
+}
+.mark-organisms {
+  display: inline;
+  color: #339999;
+  font-weight: bold;
+}
+.mark-crosstalk {
+  display: inline;
+  color: #ff3399;
+  font-weight: bold;
+}
+.mark-disease_evidence {
+  display: inline;
+  color:#FF00FF ;
+  font-weight: bold;
+}
+.mark-goterms {
+  display: inline;
+  color: #99cc33;
+  font-weight: bold;
+}
+/*-------------------------------------*/
+/*-----------------子表----------------*/
+/*-----------------------------------*/
+.list{
+	width:95%;
+
+}
+.list table{
+	border-style:hidden;	
+}
+.list table tr td{
+	width:95%;
+	word-break:break-all;
+/*	word-wrap:break-word; */	
+}
+
+
+.marg table tr>td>span{
+	text-align:center;	
+	}
+
+
+
+.caption:first-child{
+	width:15%;
+}
+
+.caption th:nth-child(2){
+	width:22%;
+}
+
+.caption th:nth-child(3){
+	width:41%;
+}
+
+.caption th:nth-child(4){
+	
+	width:17%;
+}
+
+.caption th:nth-child(5){
+	width:27%;
+}
+#divWin{
+    padding: 5px;
+
+}
+#quick_view{
+	margin:0 auto;
+	border-collapse:collapse;
+	width:100%;
+	font-size: 14px;
+
+}
+#quick_view tr{
+    height: 15px;
+	line-height:15px;
+}
+#quick_view tr th{
+    /*border:1px solid #e78f08;*/
+    text-align: center;
+}
+#quick_view tr td{
+    border:1px solid #e78f08;
+	text-align: center;
+    padding: 6px;
+}
+/*quick-view 列宽*/
+/*#quick_view:first-child{*/
+    /*width:15%;*/
+/*}*/
+
+/*#quick_view td:nth-child(2){*/
+     /*width:20%;*/
+/*}*/
+
+/*#quick_view th:nth-child(3){*/
+     /*width:10%;*/
+/*}*/
+
+/*#quick_view th:nth-child(4){*/
+     /*width:10%;*/
+/*}*/
+
+/*#quick_view th:nth-child(5){*/
+    /*width:15%;*/
+/*}*/
+
+/*#quick_view th:nth-child(6){*/
+     /*width:20%;*/
+/*}*/
+
+/*#quick_view th:nth-child(7){*/
+     /*width:10%;*/
+/*}*/
+    /*quick-view 结束     */
+.dialog-link{
+	background-image:url(../images/open.jpg);
+	float:right;
+	margin-right:20px;
+	border:none;
+	background-repeat: no-repeat;
+	background-position: left top;
+	border: none;
+	width: 16px;
+	height: 16px;
+}
+.dialog {
+	background-color:#FFF;
+
+	}
+.down_page{
+	width:100%;
+	height:60px;
+	margin-bottom: 4px;
+	}
+#download{
+	float: left;
+	width: 160px;
+	height:60px;	
+	}
+#download a{
+	margin-top:0px;
+	/* border: solid; */
+	float: left;
+	padding: 4px 10px;
+	/* line-height: 20; */
+	text-decoration: none;
+	border-left-width: 0;
+	background-color: #ea5302;
+	border: 1px solid #ea5302;
+	border-radius: 3px;
+	color: #FFF;
+}
+#download a:hover{
+	color:#000;
+	cursor:pointer;
+	}
+
+.page_tag{
+	float: right;
+	height: 55px;
+	width: 600px;
+	text-align: center;
+	/*margin-top: -10px;*/
+	overflow-x: scroll;
+	display: inline;
+	margin-right: 110px;
+	}
+	
+.page_tag li{
+	display: inline;
+}
+
+.page_tag ul {
+	margin-left: -40px;
+	width: 100000000px;
+	margin-top: 0px;
+}
+
+.page_tag a{
+	margin: 1px;
+	/* border: solid; */
+	float: left;
+	padding: 7px;
+	/* line-height: 20; */
+	text-decoration: none;
+	border-left-width: 0;
+	background-color: #ea5302;
+	/* border: 3px solid #ea5302; */
+	border-radius: 6px;
+	color: #FFF;
+	width: 24px;
+	text-align: left;
+	text-align: center;
+}
+.page_tag a:hover{
+	color:#000;
+	font-weight:bold;
+	}
+.nowpage a{
+	background-color:#CCC;
+	color:#000;
+	font-size:13px;
+	font-weight:bolder;
+	border-color:#CCC;
+	}
+
+.btn {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 90px;
+	height: 30px;
+	text-align: center;
+	background-color: #ea5302;
+	border: 3px solid #ea5302;
+	border-radius: 3px;
+	font-size: 14px;
+	color: #FFF;
+}
+.btn:hover{
+	color:#000;
+	cursor:pointer;
+	font-weight:bold;
+	}
+
+
+.det{
+	/*padding-left: 12px;
+	padding-top: 12px;
+	padding-right: 12px;
+	padding-bottom: 12px;*/
+	font-size: 15px;
+	/*border: solid;
+	border-width: 2px;
+	border-color: #ea5302;*/
+}
+
+.mask { 
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+	background: #000; 
+	opacity: 0.5;  
+	filter: alpha(opacity=50); 
+	display: none; z-index: 99; 
+}
+.mess { 
+	margin-top:-10px;
+	position:absolute; 
+	display: none; 
+	width: 180px; 
+	height: 90px; 
+	border: 1px solid #ea5302; 
+	border-radius:8px; 
+	background: #ececec; 
+	text-align: center; 
+	padding-top:40px;
+	z-index: 101;
+}
+.mess p{
+	margin-top:-12px;
+}
+
+.hlform {
+	float: left;
+	margin-right: 10px;
+	line-height: 15px;
+	display: block;
+	margin-top: 0em;
+}
+
+
+
+.pubdate {
+  display: inline;
+}
+.pmcid {
+  display: inline;
+  float:right;
+}
+
+.pmid_list_link a{
+	text-decoration:none;
+	font-size:26px;
+	text-align:center;
+	color:#000;
+}
+
+
+
+#divWin_text{
+	width:100%;
+	height:auto;
+	margin-bottom: 10px;
+	background-color:#fff;
+}
+
+.clear{
+	clear:both;
+}
+
+#changpage{
+	width:280px;
+	height:40px;
+	margin: 0 auto;
+	margin-bottom:5px;
+    text-align: center;
+}
+
+#changpage p{
+    text-align: center;
+	margin: 0 auto;
+}
+#changpage p a{
+	margin: 1px;
+    /* border: solid; */
+    float: left;
+    padding: 7px;
+    /* line-height: 20; */
+    text-decoration: none;
+    border-left-width: 0;
+    background-color: #ea5302;
+    /* border: 3px solid #ea5302; */
+    border-radius: 6px;
+    color: #FFF;
+    width: 24px;
+    text-align:center;
+}
+
+.gene_norm{
+	width:980px;
+	height:auto;
+	margin-bottom:6px;
+}
+
+
+.gene_norm table{
+	display:table;
+	margin:0 auto;
+}
+
+.gene_norm table th{
+	width:980px;
+}
+.gene_norm table tr{
+	width:980px;
+	height:auto;
+
+	margin:0 auto;
+	padding: 7px;
+}
+.gene_norm table tr td{
+	border:1px solid #e78f08;
+	text-align:center;
+}
+.pmid_Uni{
+	width:980px;
+	height:auto;
+	text-align:center;
+	padding: 7px;
+}
+.uniprot_link{
+	border:1px solid #e78f08;
+	padding-bottom:1px;
+	padding-left:1px;
+	padding-right:1px;
+	padding-top:0px;
+	margin-top:2px;
+}
+.pageindex{
+	display:none;
+}
+
+.isfirst{
+	display:none;
+}
+
+#sequences{
+	display:none;
+}
+#pmid{
+	display:none;
+}
+
+form .submit{
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70px;
+    height: 25px;
+    color: #FFF;
+    background-color: #ea5302;
+    font-size: 14px;
+    border: 3px solid #ea5302;
+    border-radius: 3px;
+	 }
+	 
+form .submit:hover{
+	background-color:#ff5900;
+	border:3px solid #ff5900;
+	font-weight:bold;
+	color:#000;
+	cursor:pointer;
+}

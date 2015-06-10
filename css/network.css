@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+.qsearch p{
+	margin:10 200 10 10;
+	text-align:center;
+	font-size:25px;
+	font-style:inherit;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#F88007;
+	}
+#staMain{
+	margin-left:170px;
+	}
+	
+#submit{
+	width:90px;
+	height:41px;
+	color:#FFF;
+	font-size:15px;
+	background-color:#ea5302;
+	border:3px solid #ea5302;
+	border-radius:3px;
+	 }
+#submit:hover{
+	color:#000;
+	font-weight:bold;
+	cursor:pointer;
+	}	 
+	 
+.qsearch_2 p{
+	font:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	margin:0 20px;
+	}
+
+
+/*loading*/
+.mask { 
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+	background: #000; 
+	opacity: 0.5;  
+	filter: alpha(opacity=50); 
+	display: none; z-index: 99; 
+}
+.mess { 
+	margin-top:-10px;
+	position:absolute; 
+	display: none; 
+	width: 180px; 
+	height: 90px; 
+	border: 1px solid #ea5302; 
+	border-radius:8px; 
+	background: #ececec; 
+	text-align: center; 
+	padding-top:40px;
+	z-index: 101;
+}
+.mess p{
+	margin-top:-12px;
+
+}
+.MenuBar li:nth-child(4){
+	background-color:#CCC;
+	
+	}

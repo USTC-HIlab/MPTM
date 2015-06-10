@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+.tool_tabs
+{
+	padding:10;
+	margin-top:20px;
+}
+#tabs .tool_tabs .label
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;	
+}
+
+form .submit{
+	font-family:Verdana, Geneva, sans-serif;
+	width:90px;
+	height:35px;
+	color:#F88007;
+	font-size:18px;
+	 }
+
+form .clear{
+    font-family:Verdana, Geneva, sans-serif;
+	width:90px;
+	height:35px;
+	color:#F88007;
+	font-size:18px;
+	 }
+
+.pmids{
+	margin-top:20px;
+	text-align:center;
+	}
+
+.searchs{
+	margin-top:20px;
+	text-align:center;
+	}
+
+.texts{
+	margin-top:20px;
+	margin-left:20px;
+	text-align:center;
+	}
+	/*tabs高度一致*/
+#tabs-1{
+	margin-top:-15px;
+	height:460px;
+	}
+#tabs-2{
+	height:460px;
+	margin-top:-15px;
+
+	}
+#tabs-3{
+	height:460px;
+	margin-top:-15px;
+	}
+	
+#pmid{
+	display:none;
+	}
+#search{
+	display:none;
+	}
+#text{
+	display:none;
+	}
+
+

@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+#page p{
+	font:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	margin:0 20px;
+}
+
+#page ul{
+	font:Arial, Helvetica, sans-serif;
+	font-size:17px;
+}
+
+#page p a{
+	color:#03F;
+	text-decoration: none;/*去掉下划线*/	
+}
+
+.a1 li a{
+	text-decoration: none;/*去掉下划线*/	
+	}
+#page p .step{
+	color:#00F;
+}
+.tutorial{
+	width:980px;
+	height:auto;
+	}
+
+
+.overview {
+	width:980px;
+	height:auto;
+	border:1px solid #e78f08;
+	border-radius:6px;
+	text-align:center;
+	}
+.overview p{
+	text-align:justify;
+}
+.overview img{
+	width:965px;
+	text-align: center;
+	}
+	
+	
+.web_server {
+	width:980px;
+	height:auto;
+	border:1px solid #e78f08;
+	border-radius:6px;
+	text-align:center;
+	}
+	
+.web_server	p{
+	text-align:justify;
+}
+
+.web_server img{
+	width:965px;
+	text-align: center;
+	}
+	
+	
+	
+.MPTMDB {
+	width:980PX;
+	height:auto;
+	border:1px solid #e78f08;
+	border-radius:6px;
+	text-align:center;
+	}
+	
+.MPTMDB p{
+	text-align:justify;
+	}	
+	
+.MPTMDB img{
+	width:965px;
+	text-align: center;
+	}
+	
+.network{
+	width:980px;
+	height:auto;
+	border:1px solid #e78f08;
+	border-radius:6px;
+	text-align:center;
+
+	}
+
+.network p{
+	text-align:justify;
+	}	
+	
+.network img{
+	width:965px;
+	text-align: center;
+	}
+	
+.contact{
+	width:980px;
+	height:auto;
+	border:1px solid #e78f08;
+	border-radius:6px;
+	}
+.MenuBar li:nth-child(6){
+	background-color:#CCC;
+	
+	}

@@ -1,0 +1,14 @@
+table{
+table-layout:fixed;
+margin:0 auto;
+}
+td{
+height:30px;
+}
+.css1{
+background-color:#ffffff;
+}
+.css2{
+background-color:#0aa099;
+}
+

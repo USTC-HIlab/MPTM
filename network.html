@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Network</title>
+<link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
+<link href="css/default.css" rel="stylesheet" type="text/css" />
+<link href="css/network.css" rel="stylesheet" type="text/css" />
+<script src="javascript/sta_validate.js" type="text/javascript"></script>
+
+<script src="javascript/bar.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#roll').hide();
+	$(window).scroll(function() {
+		if($(window).scrollTop() >= 100){
+			$('#roll').fadeIn(400);
+    }
+    else
+    {
+    $('#roll').fadeOut(200);
+    }
+  });
+  $('#roll_top').click(function(){$('html,body').animate({scrollTop: '0px'}, 800);});
+  $('#roll_bottom').click(function(){$('html,body').animate({scrollTop:$('#bottombox').offset().top}, 800);});
+});
+</script>
+</head>
+
+<body>
+<div class="mask"></div>
+<div class="mess">
+         <p><img src="images/loading.gif" height="50px" width="70px"/></p>
+         <p>Running Network...</p>
+</div>
+<div class="container">
+<div class="nav">
+	<div class="navigation">
+        <ul class="MenuBar">
+        <li><a href="index.html" style="background:none; font-size:17px; font-weight:lighter; margin-top:-8px;"><img src="images/LOGO.png" style="border:none"/></a></li>
+        <li><a href="index.html">Web Server</a></li>
+        <li><a href="ptmdb.html">MPTMDB</a></li>
+        <li><a href="network.html">Network</a></li>
+        <li><a href="download.html">Download</a></li>
+        <li><a href="tutorial.html">Tutorial</a></li>
+        </ul>
+		<div class="clear"></div><!--清除格式-->
+	</div>   <!-- end .navigation -->
+</div>
+
+  
+	<div id="page">
+    <br />
+        <div class="qsearch" >
+            <p>Interaction Network</p>
+            <form action="cgi-bin/statistics.cgi" method="post" enctype="multipart/form-data" id="staMain" onsubmit="return sta_validate(this)">
+                        <input  name="quick_search" id="quick_search" style="width:523px; height:37px;">
+                         <input type="submit"  name="submit" id="submit"  value="Submit" /> 
+            </form>
+              <br /><br />
+        </div>
+        <div class="qsearch_2">
+        <p>Interaction Network is a graphic tool to show the interaction network of Post-Translational Modifications.</p>
+        <br />
+   		 <h1>HOW TO ACCESS:</h1>
+         <hr color="#CCCCCC">
+         <br />
+        <p> Users can use the Interaction Network Search in the Network page. For example, you can browse the network for 'p53' and 'H3', as shown below. Try browsing <a href="http://bioinformatics.ustc.edu.cn/mptm/cgi-bin/statistics.cgi?quick_search=p53,H3">p53,H3</a>.</p>
+<br />
+        <div align="center">
+            <img src="images/r4.PNG" width="700" height="450"/>
+        </div>
+<br />
+<br />
+        <p>USAGE: Users can see the results including two parts. One is the Interaction Network between target protein and enzyme, the other is Distribution of the target protein of PTMs. The target protein will be the center of the network, and the nodes are the interacted enzymes. In the network, users can control the distance of protein-enzyme interactions in the network by the controller in the lower right corner.</p>
+        <div align="center">
+         <img src="images/r2.PNG" width="700" height="450"/>
+        </div>
+
+		</div>
+<br />
+    </div>
+<div id="roll"><div title="Top" id="roll_top"></div></div> 
+    <div id="footer">
+      <p class="copyright">&copy;&nbsp;&nbsp;2014 All Rights Reserved &nbsp;&bull;&nbsp; Design by <a href="http://hi.ustc.edu.cn/">HI_lab</a> @ <a href="http://en.ustc.edu.cn/">USTC</a>.</p>
+    </div>
+</div>
+</body>
+</html>

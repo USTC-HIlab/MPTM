@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+/*.search p{
+	margin:10 200 10 10;
+	text-align:center;
+	font-size:25px;
+	font-style:inherit;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#F88007;
+	}*/
+#mptmdbMain{
+	margin-left:130px;
+	vertical-align:middle;
+	}
+#mptmdb_search{
+	vertical-align:middle;
+	width:480px;
+	height:36px;
+	}
+#submit{
+	width:90px;
+	height:41px;
+	color:#FFF;
+	background-color:#ea5302;
+	border:3px solid #ea5302;
+	border-radius:3px;
+	font-size:15px;
+	vertical-align:middle;
+	 }
+#submit:hover{
+	color:#000;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+
+#select{
+	height:41px;
+	color:#F88007;
+	font-size:19px;
+	vertical-align:middle;
+	}
+	
+#result{
+	margin:0 auto;
+	width:940px;
+	font-size:16px;
+}
+#result a{
+	color:#03F;
+	text-decoration: none;/*去掉下划线*/	
+	}
+	
+.ptmdb p{
+	/*font:Arial, Helvetica, sans-serif;*/
+	font-size:17px;
+	margin:0 20px;
+	text-align:justify;
+	}
+.ptmdb p a{
+	text-decoration: none;
+	}
+.ptmdb ul li{
+	font:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	}
+.back a:link{
+	font-size:22px;
+	color:#FFF;
+	text-decoration: none;/*去掉下划线*/
+	font-family:Arial, Helvetica, sans-serif;
+	}
+.back{
+	width:180px;
+	height:28px;
+	text-align:center;
+	background-color:#ea5302;
+	border:3px solid #ea5302;
+	border-radius:3px;	
+}
+.sorry{
+		margin-top:-100px;
+		font-size:20px;
+	}

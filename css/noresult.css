@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+.back a:link{
+	font-size:22px;
+	color:#FFF;
+	text-decoration: none;/*去掉下划线*/
+	font-family:Arial, Helvetica, sans-serif;
+	}
+.back{
+	width:180px;
+	height:28px;
+	text-align:center;
+	background-color:#ea5302;
+	border:3px solid #ea5302;
+	border-radius:3px;	
+}
+.sorry{
+		margin-top:-100px;
+		font-size:20px;
+	}

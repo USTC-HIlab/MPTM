@@ -1,0 +1,10 @@
+function selectkinds(input1,input2)
+{
+
+var str=document.getElementsByName("S_Ptm");
+var objarray=str.length;
+for (i=0;i<objarray;i++)
+{
+  str[i].checked == false
+}
+}

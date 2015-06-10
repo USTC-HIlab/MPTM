@@ -1,0 +1,15 @@
+function sta_validate(form) 
+{
+  var returnValue = true;
+  
+if(form.quick_search.value.length==0) {
+	  	returnValue=false;
+			alert("\nPlease input several keywords!");
+			form.sequences.focus();
+	  }
+	  else {
+		return true;
+	  }
+  
+  return returnValue;
+}

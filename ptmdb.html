@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>MPTMDB</title>
+<link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
+<link href="css/default.css" rel="stylesheet" type="text/css" />
+<link href="css/mptm_search.css" rel="stylesheet" type="text/css" />
+<link href="css/mptmdb.css" rel="stylesheet" type="text/css" />
+<script src="javascript/mptmdb_sort.js" type="text/javascript"></script><!--排序-->
+<script src="javascript/bar.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#roll').hide();
+	$(window).scroll(function() {
+		if($(window).scrollTop() >= 100){
+			$('#roll').fadeIn(400);
+    }
+    else
+    {
+    $('#roll').fadeOut(200);
+    }
+  });
+  $('#roll_top').click(function(){$('html,body').animate({scrollTop: '0px'}, 800);});
+  $('#roll_bottom').click(function(){$('html,body').animate({scrollTop:$('#bottombox').offset().top}, 800);});
+});
+</script>
+<script src="javascript/mptmdb_validate.js" type="text/javascript"></script>
+<script type="text/javascript">
+function mouseOver(obj){
+if(obj.className="css1")
+   obj.className="css2";
+}
+function mouseOut(obj){
+if(obj.className="css2")
+   obj.className="css1";
+}
+</script>
+<script>
+    function change_pmid(){
+            var imgObj = document.getElementById("sort_pmid");
+            var Flag=(imgObj.getAttribute("src",2)=="images/sort_a.png")
+            imgObj.src=Flag?"images/sort_d.png":"images/sort_a.png";
+        }
+    function change_date(){
+            var imgObj = document.getElementById("sort_date");
+            var Flag=(imgObj.getAttribute("src",2)=="images/sort_a.png")
+            imgObj.src=Flag?"images/sort_d.png":"images/sort_a.png";
+        }
+    function change_type(){
+            var imgObj = document.getElementById("sort_type");
+            var Flag=(imgObj.getAttribute("src",2)=="images/sort_a.png")
+            imgObj.src=Flag?"images/sort_d.png":"images/sort_a.png";
+        }
+</script>
+
+
+</head>
+
+<body>
+<div class="container">
+<div class="nav">
+	<div class="navigation">
+        <ul class="MenuBar">
+        <li><a href="index.html" style="background:none; font-size:17px; font-weight:lighter; margin-top:-8px;"><img src="images/LOGO.png" style="border:none"/></a></li>
+        <li><a href="index.html">Web Server</a></li>
+        <li><a href="ptmdb.html">MPTMDB</a></li>
+        <li><a href="network.html">Network</a></li>
+        <li><a href="download.html">Download</a></li>
+        <li><a href="tutorial.html">Tutorial</a></li>
+        </ul>
+		<div class="clear"></div><!--清除格式-->
+	</div>   <!-- end .navigation -->
+</div>
+  
+<div id="page">
+        <br />
+        <div class="ptmdb">
+        <h1>MPTMDB</h1>
+        <hr color="#CCCCCC">
+<p>MPTMDB contains a comprehensive collection of available PTM information, which covers the target proteins, enzymes, sites, organisms, and PTM-related human diseases. MPTMDB provides such information through quickly search interface or could be downloaded from here <a href="downloadfiles/mptm.zip">mptmdb.zip</a>.</p>
+       <br />
+	    <h1>Statistics</h1>
+    	<hr color="#CCCCCC">
+<p>The MPTMDB contains 178,446 abstracts & 435,433 records, whose details include:</p>
+        <ul>
+            <li>substrate:400,437 records</li>
+            <li>enzyme:71,266 records</li>
+           	<li>site:47,596 records</li> 
+            <li>disease:1,406</li>
+            <li>organisms:8</li>
+        </ul>
+
+		<h1>Acknowledgement</h1>
+        <hr color="#CCCCCC">
+<p>MPTMDB is available by integrating protein data from biological databases such as OMIM and published literature of worldwide researchers from PubMed. We thank all the contributors to these databases and literature.</p>
+</div>
+        <br />
+        <br />
+        <br />
+        <div class="search">
+		<p>Quick Search</p>
+            <form action="" method="post" enctype="multipart/form-data" id="mptmdbMain" onsubmit="return mptmdb_validate(this)">
+                <select name="select" id="select">
+                    <option value = "substrate">Substrate</option>
+                    <option value = "kinase">Enzyme</option>
+                 <!-- <option value = "">Organism</option> -->
+                </select>
+                <input  name="mptmdb_search" id="mptmdb_search" >
+                <input type="submit"  name="submit" id="submit"  value="Search" />
+            </form>
+            <br /><br />
+        <div id="result">User can select a field in the 'drop-down' field box, and type any keywords(eg.p53 or pka). After composing a specified conditions, you can click the "Search" button to search for relevant results. More details can be found at <a href="tutorial.html">tutorial page</a>.</div>
+		<div style="clear: both;">&nbsp;</div>
+        </div>
+<br />
+<br />
+<br />
+<br />
+<br />
+
+    </div>
+
+<div id="roll"><div title="Top" id="roll_top"></div></div> 
+
+    <div id="footer">
+      <p class="copyright">&copy;&nbsp;&nbsp;2014 All Rights Reserved &nbsp;&bull;&nbsp; Design by <a href="http://hi.ustc.edu.cn/">HI_lab</a> @ <a href="http://en.ustc.edu.cn/">USTC</a>.</p>
+    </div>
+</div>
+
+</body>
+</html>

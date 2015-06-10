@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* CSS Document */
+/*································································································*/
+/*······································页面属性···················································*/
+/*································································································*/
+/*body 整体页面属性*/
+body {
+	/*background: url(../images/background.png);*/
+	text-align: justify;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#000;
+	background-color:#FFF;
+	margin-bottom:0;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*内容页面属性*/
+.container {
+	width:100%;
+	margin: 0 auto;
+	background-color:#FFF;
+}
+
+
+/*清除浮动*/
+.navigation  .clear{
+	clear: both;
+}
+
+
+
+/*································································································*/
+/*······································导航栏属性···················································*/
+/*································································································*/
+/*导航栏*/
+.nav{
+	width:100%;
+	height:40px;
+	background:#ea5302;
+	margin-top:-15px;	
+	}
+
+.navigation{
+	margin: 0 auto;
+	height:40px;
+	width:980px;
+	}
+.MenuBar
+{
+	list-style-type: none;
+	font-size:14px;
+	cursor: pointer;
+	height:40px;
+
+	/*background:url(../images/banner_all.png);*/
+}
+
+
+
+.MenuBar li
+{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	text-align:center;
+	cursor: pointer;
+	width:150px;
+	float: left;/*让文字横排*/
+}
+/*导航栏每个列表属性*/
+.MenuBar a
+{
+	font:17px arial;
+	display: block;/*将链接设成块级元素*/
+	cursor: pointer;
+	background-color:dcdcdc;
+	padding: 0.5em 0.75em;
+	color:#000;
+	text-decoration: none;/*去掉下划线*/
+	/*border-right:1px solid #CCC;*//*右边加上分割线*/
+}
+
+
+/* 导航栏鼠标放上去以后的效果 */
+.MenuBar a:hover{
+	color:#000;
+	background-color:#CCC;
+	font-size:18px;
+	font:bold;
+}
+
+/*.MenuBar li:nth-child(1){
+	margin-right:80px;
+	margin-top:1px;
+	}*/
+/*································································································*/
+/*······································page页面属性···················································*/
+/*································································································*/
+
+/* page页面,除导航栏和页尾 */
+#page {
+	width:980px;
+	margin: auto;
+	padding: 0px 0px;
+	background: #FFF;
+	/*border-bottom: 1px solid #F88007;/*页面下方有蓝色横线*/
+}
+
+
+
+/*································································································*/
+/*······································标题格式··················································*/
+/*································································································*/
+h1{
+	margin:0 0 0 0px;
+	font:"Arial Black", Gadget, sans-serif;
+	font-size: 18px;
+	color:#000;
+}
+
+
+/*································································································*/
+/*······································footer属性···················································*/
+/*································································································*/
+
+#footer {
+	width: 100%;
+	height: 30px;
+	margin: 0 auto;
+	background:#ea5302;
+	border:1px solid #ea5302;
+}
+
+#footer p {
+	margin: 0;
+	padding: 8px 0 0 0;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+#footer a {
+	color:#03F;
+	text-decoration: none;/*去掉下划线*/	
+}
+
+#footer .link {
+	float: right;
+}
+
+#footer .copyright {
+	float: inherit;
+}
+
+/*································································································*/
+/*······································浮动条···················································*/
+/*································································································*/
+/*returnTop*/
+
+#roll_top{
+	position:relative;
+	cursor:pointer;
+	height:70px;
+	width:70px;
+	}
+#roll_top {
+	background: url(../images/top.png) no-repeat;
+	}
+#roll {
+	display:none;
+	width:70px;
+	margin-right:-600px;  /*这个是距离的位置，请自行调整，必要时可以增加IE6的hack*/
+	position:fixed;
+	right:50%;
+	top:80%;
+	_position:absolute;
+	_margin-top:300px;
+	_top:expression(eval(document.documentElement.scrollTop));
+	}
+	
+/*································································································*/
+/*······································note图下的说明···················································*/
+/*································································································*/
+#note{
+	padding: 5px;
+	padding-left: 10px;
+	margin-top: 20px;
+	font-size: 16px;
+	border: 1px solid rgba(121, 120, 123, 0.7);
+	background-color: #FDFDFD;	}
+#note p{
+	margin-top:-1px;
+	margin-bottom:2px;
+}
+

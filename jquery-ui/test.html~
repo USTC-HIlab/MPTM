@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Results</title>
+<link href="jquery-ui.css" rel="stylesheet">
+</head>
+
+<body>
+		<div id="tabs">
+	<ul>
+	  <li><a href="#p">Phosphorylation(1)</a></li>
+	  <li><a href="#m">Methylation(1)</a></li>
+</ul>
+		<div id = "p">
+			<table>	
+			<tr>
+			<td colspan="4">164350</td>
+			</tr>
+
+
+<tr>
+<td>&nbsp;&nbsp;<strong></strong>&nbsp;&nbsp;</td>
+<td><strong>Mined Data</strong></td>
+<td><strong>Relate</strong></td>
+ <td><strong>TextEvidence</strong></td>
+  </tr>
+	<tr>
+	<td rowspan=1 >Substrate</td>
+<td >alpha and beta subunits of phosphorylase kinase</td>
+<td >164350</td>
+<td >Two tryptic phosphopeptides containing the sites on the alpha and beta subunits of phosphorylase kinase which are phosphorylated by protein kinase, dependent on adenosine 3':5'-monophosphate (cyclic AMP), have been isolated and their amino acid sequences have been determined.</td>
+</tr>
+	<tr>
+	<td rowspan=1 >Kinase</td>
+<td >cyclic-AMP-dependent protein kinase</td>
+					<td >2108025,164350</td>
+					<td >These results and an inspection of the rate of phosphorylation of a number of skeletal muscle proteins, including each enzyme of the glycolytic pathway, lead to the conclusion that cyclic-AMP-dependent protein kinase is an extremely specific enzyme.</td>
+</tr>
+     </table>
+     </div>
+		<div id = "m">
+			<table>	
+			<tr>
+			<td colspan="4">10973948</td>
+			</tr>
+
+
+<tr>
+<td>&nbsp;&nbsp;<strong></strong>&nbsp;&nbsp;</td>
+<td><strong>Mined Data</strong></td>
+<td><strong>Relate</strong></td>
+ <td><strong>TextEvidence</strong></td>
+  </tr>
+	<tr>
+	<td rowspan=1 >Substrate</td>
+<td >eEF1A</td>
+<td >24285179,24314635,23900830,10973948</td>
+<td >The rapid turnover of the methyl ester suggests that the methylation/demethylation of eEF1A at the C-terminal carboxyl group may represent a novel mode of regulation of the activity of this protein in yeast.</td>
+</tr>
+     </table>
+     </div>
+		</div><!--end tabs-->
+<script src="jquery-ui.js"></script>
+<script src="external/jquery/jquery.js"></script>
+<script>
+	$( "#tabs" ).tabs();
+</script>
+</body>
+</html>
+
