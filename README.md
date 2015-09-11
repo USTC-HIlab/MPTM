@@ -20,7 +20,7 @@ LingPipe is tool kit for processing text using computational linguistics. LingPi
 (3)Suggest correct spellings of queries
 
 
-BANNER
-BANNER [22] is an open-source, executable survey of advances in biomedical named entity recognition, and intended to serve as a benchmark for the text mining field. 
+BANNER：
+BANNER is an open-source, executable survey of advances in biomedical named entity recognition, and intended to serve as a benchmark for the text mining field. 
 Please download the source code of BANNER from http://banner.cvs.sourceforge.net /banner/ 
 and compile the code into a jar package by Apache Ant tool.
