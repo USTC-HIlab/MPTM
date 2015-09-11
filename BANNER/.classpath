@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="libs"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="lib" path="libs/dragontool.jar"/>
+	<classpathentry kind="lib" path="libs/heptag.jar"/>
+	<classpathentry kind="lib" path="libs/medpost.jar"/>
+	<classpathentry kind="lib" path="libs/junit-4.4.jar"/>
+	<classpathentry kind="lib" path="libs/jdom-1.0.jar"/>
+	<classpathentry kind="lib" path="libs/bsh.jar"/>
+	<classpathentry kind="lib" path="libs/secondstring.jar"/>
+	<classpathentry kind="lib" path="libs/openjgraph.jar"/>
+	<classpathentry kind="lib" path="libs/jwnl-1.3.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
