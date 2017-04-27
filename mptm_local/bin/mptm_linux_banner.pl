@@ -2,7 +2,7 @@
 # MPTM Lite Edition 1.0
 # For Text Mining of PTMs
 # Programmed by DongDong Sun
-# Final revised on Sep 30, 2014
+# Final revised on Sep 30, 2016
 require '../lib/ie_phosphorylation.pl';
 require '../lib/ie_methylation.pl';
 require '../lib/ie_glycosylation.pl';
