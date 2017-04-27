@@ -1,6 +1,6 @@
 MPTM: A Tool for Mining Protein Post-translational Modifications from Literature
 
-MPTMDB: http://hi.ustc.edu.cn/mptm/download.html
+MPTMDB: http://bioinformatics.ustc.edu.cn/mptm/download.html
 
 -- Third-party tools used in MPTM --
 ----------------------------------------
