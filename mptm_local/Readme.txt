@@ -1,5 +1,5 @@
 MPTM Lite Package: A TOOL FOR MINING POST-TRANSLATIONAL MODIFICATION FROM LITERATURE
-Virsion 1.0 (Sep 2014)
+Virsion 1.0 (Sep 2016)
 
 ============================================================================================================
 
